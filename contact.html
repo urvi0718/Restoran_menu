@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restotran - contact</title>
+    <!-- template stylesheet -->
+    <link rel="stylesheet" href="./contact.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-warning m-0"><i class="fa fa-utensils me-3"></i></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 pe-4">
+                    <a href="restoran.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="menu.html" class="nav-item nav-link">Menu</a>
+                    <a href="pages.html" class="nav-item nav-link">Pages</a>
+                    <a href="#" class="nav-item nav-link  text-warning">Contact</a>
+                </div>
+                <a href="booktable.html" class="btn btn-warning py-2 px-4">Book A Table</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Page Header -->
+    <div class="container-fluid bg-dark py-5 mb-5">
+        <div class="container text-center text-white">
+            <h1 class="display-4 fw-bold " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">Contact Us</h1>
+            <p class="lead" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">We're here to help and answer any question you might have.</p>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container py-5"  data-aos="fade-up" data-aos-duration="1500">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <h2 class="mb-4">Send us a Message</h2>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-warning px-4 py-2" type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Contact Info Section -->
+            <div class="col-lg-5">
+                <h2 class="mb-4">Contact Details</h2>
+                <p><i class="fa fa-map-marker-alt text-warning me-2"></i>123 Street, New York, USA</p>
+                <p><i class="fa fa-phone text-warning me-2"></i>+12 345 654410</p>
+                <p><i class="fa fa-envelope text-warning me-2"></i>info@example.com</p>
+                <div class="d-flex pt-3">
+                    <a class="btn btn-warning btn-square me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-warning btn-square me-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-warning btn-square me-2" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Map Section -->
+    <div class="container-fluid px-0"  data-aos="zoom-out" data-aos-duration="1500">
+        <iframe src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
+            height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="container-fluid bg-dark text-white py-5 mt-5"  data-aos="fade-up" data-aos-duration="1500">
+        <div class="container text-center">
+            <h4 class="text-warning mb-3">Subscribe to Our Newsletter</h4>
+            <p class="mb-4">Stay updated with our latest news and offers.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button class="btn btn-warning" type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; <a href="#" class="text-warning" style="text-decoration:none;">Your Site Name</a>, All rights reserved.
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

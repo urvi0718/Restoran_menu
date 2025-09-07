@@ -1,0 +1,20 @@
+.table-card {
+            transition: 0.3s;
+            border: 2px solid black;
+        }
+
+        .table-card:hover {
+            box-shadow: 0 0 5px black;
+        }
+
+        .occupied {
+            background-color: #D6D6D6;
+        }
+
+        .available {
+            background-color: #D6D6D6;
+        }
+
+        .table-status {
+            font-size: 0.9rem;
+        }

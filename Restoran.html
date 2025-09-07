@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Website</title>
+    <!-- template stylesheet -->
+    <link rel="stylesheet" href="./Restoran.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navbar & hero -->
+
+    <div class="container-xxl-position-relative p-0" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-warning m-0"><i class="fa fa-utensils me-3 "></i></h1>
+            </a>
+            <button class="navbar-toggler" type="submit">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collaapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 pe-4">
+                    <a href="" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="menu.html" class="nav-item nav-link">Menu</a>
+                    <a href="pages.html" class="nav-item nav-link">Pages</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="booktable.html" class="btn btn-warning py-2 px-4">Book A Table</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid py-5 bg-dark hero-header">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                        <h1 class="display-3 text-white animated sliderInLeft fw-bold">Enjoy Our <br>Delicious Meal</h1>
+                        <p class="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                            cumque, corporis qui fugiat aspernatur at voluptas mollitia ipsam ipsum perspiciatis?</p>
+                        <a href="" class="btn btn-warning py-sm-3 px-sm-5 sildeInLeft mt-3">Book A Tables</a>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end overflow-hidden" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                        <img src="./hero-img.png" class="img-fluid" alt="" width="490px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Section -->
+
+    <div class="container-xxl py-5" data-aos="fade-up" data-aos-duration="1500" >
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fedeInUp" data-wow-delay="0.1s" >
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user-tie text-warning mb-4"></i>
+                            <h5>Master Chefs</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, odit?</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6 wow fedeInUp" data-wow-delay="0.1s" >
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-utensils text-warning mb-4"></i>
+                            <h5>Quality Food</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, odit?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fedeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cart-plus text-warning mb-4"></i>
+                            <h5>Online Order</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, odit?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fedeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-headset text-warning mb-4"></i>
+                            <h5>24/7 Service</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, odit?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about-section -->
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-start"  data-aos="zoom-in" data-aos-duration="1500">
+                            <img class="img-gluid rounded w-100 wow zoomIn" src="./about-img.png" alt="">
+                        </div>
+                        <div class="col-6 text-start" data-aos="zoom-in"  data-aos-duration="1500">
+                            <img class="img-gluid rounded w-75 wow zoomIn" src="./about-1.webp" style="margin-top:25% ;"
+                                alt="">
+                        </div>
+                        <div class="col-6 text-end" data-aos="zoom-in"  data-aos-duration="1500">
+                            <img class="img-gluid rounded w-75 wow zoomIn" src="./about-21.jpg" alt="">
+                        </div>
+                        <div class="col-6 text-start" data-aos="zoom-in"  data-aos-duration="1500">
+                            <img class="img-gluid rounded w-100 wow zoomIn" src="./about-4.avif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500">
+                    <h5 class="section-title ff-secondary text-start text-warning fw-normal">About Us</h5>
+                    <h1 class="mb-4">Welcome To <i class="fa fa-utensils text-warning me-2"></i>Restoran</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam nam voluptas
+                        sapiente, debitis consequatur veniam numquam libero repellendus quas eos?</p>
+                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam nam voluptas
+                        sapiente, debitis consequatur veniam numquam libero repellendus quas eos?</p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items center border-start border-5 border-warning px-3">
+                                <h1 class="flex-shrink-0 display-5 text-warning mb-0">15</h1>
+                                <div class="ps-4">
+                                    <p class="mb-0">Years Of</p>
+                                    <h6 class="text-uppercase mb-0">Experience</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items center border-start border-5 border-warning px-3">
+                                <h1 class="flex-shrink-0 display-5 text-warning mb-0">50</h1>
+                                <div class="ps-4">
+                                    <p class="mb-0">Popluar</p>
+                                    <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-warning py-3 px-5 mt-5">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Menu-section -->
+
+    <div class="container--xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-aos="zoom-in" data-aos-duration="1500">
+                <h5 class="section-title ff-secondary text-center text-warning fw-normal">
+                    Food Menu
+                </h5>
+                <h1 class="mb-5">Most Popluar Items</h1>
+            </div>
+            <div class="tab-class text-center wow fadeInup"  >
+                <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                    <li class="nav-items">
+                        <a href="" class="d-flex align-items-center text-start mx-3 pb-3 " data-aos="zoom-in" data-aos-duration="1500"
+                            style="text-decoration: none;">
+                            <i class="fa fa-hamburger fa-2x text-warning"></i>
+                            <div class="ps-3">
+                                <small class="text-body">Special</small>
+                                <h6 class="mt-n1 mb-0" style="color:black">Lunch</h6>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="" class="d-flex align-items-center text-start mx-3 pb-3 " data-aos="zoom-in" data-aos-duration="1500"
+                            style="text-decoration: none;">
+                            <i class="fa fa-utensils fa-2x text-warning"></i>
+                            <div class="ps-3">
+                                <small class="text-body">Lovely</small>
+                                <h6 class="mt-n1 mb-0" style="color:black">Dinner</h6>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="" class="d-flex align-items-center text-start mx-3 pb-3 " data-aos="zoom-in" data-aos-duration="1500"
+                            style="text-decoration: none;">
+                            <i class="fa fa-coffee fa-2x text-warning"></i>
+                            <div class="ps-3">
+                                <small class="text-body">Popluar</small>
+                                <h6 class="mt-n1 mb-0" style="color:black">Breakfast</h6>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="teb-cotent"  data-aos="fade-up" data-aos-duration="3000">
+                    <div class="teb-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="./menu-1.webp" class="flex-shrink-0 img-fluid rounded" alt="" width="15%">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chiken Burger</span>
+                                            <span class="text-warning">$100</span>
+                                        </h5>
+                                        <small class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Eum, impedit! Harum quos nisi obcaecati qui.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reservation -->
+
+    <div class="container-xxl py-5 px-0 wow fadeInUp">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="video">
+                    <button type="button" class="btn-play" data-bs-toogle="model"
+                        data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoMoal">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 bg-dark align-items-center" >
+                <div class="p-5" data-aos="fade-up" data-aos-duration="1500">
+                    <h5 class="section-title ff-secondary text-start text-warning fw-normal">
+                        Reservation
+                    </h5>
+                    <h1 class="text-white mb-4">
+                        Book A Table Online
+                    </h1>
+                    <form action="">
+                        <div class="row g-3">
+                            <div class="col-mb-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-mb-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="email" placeholder="">
+                                    <label for="name">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-mb-6">
+                                <div class="form-floating date" id="date3">
+                                    <input type="text" class="form-control" id="name" placeholder="Date & Time"
+                                        data-target="#date3" data-toggle="dateinpicker" itemid="datetime">
+                                    <label for="name">Date & Time</label>
+                                </div>
+                            </div>
+                            <div class="col-mb-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select1">
+                                        <option value="1">People1</option>
+                                        <option value="2">People2</option>
+                                        <option value="3">People3</option>
+                                    </select>
+                                    <label for="select1">No Of People</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" placeholder="Special Required"
+                                        style="height: 100px;"></textarea>
+                                    <label for="name">Special Required</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-warning w-100 py-3 type=" submit" ">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="model-header">
+                        <h5 class="modal-title" id="exampleModalLable">Youtube Video</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="" class="embed-responsive-item" id="video"allowfullscreen="always" allow="autoplay"></iframe>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- team section -->
+
+    <div class="container-xxl pt-5 mb-3">
+        <div class="container">
+            <div class="text-center wow fadeInup" data-aos="zoom-in" data-aos-duration="1500">
+                <h5 class="section-title ff-secondary text-center text-warning fw-normal">
+                    Team Members
+                </h5>
+                <h1 class="mb-5">Our Master Chefs</h1>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-6 wow fadeInup" >
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden m-4">
+                            <img class="img-fluid" src="https://planb-app.com/img/team-1.jpg"alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Desigantion</small>
+                        <div class="d-flex justify-content-center mt-3"data-aos="fade-top" data-aos-duration="1500">
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-facebook"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden m-4">
+                            <img class="img-fluid" src="https://planb-app.com/img/team-1.jpg"alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Desigantion</small>
+                        <div class="d-flex justify-content-center mt-3" data-aos="fade-top" data-aos-duration="1500">
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-facebook"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden m-4">
+                            <img class="img-fluid" src="https://planb-app.com/img/team-1.jpg"alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Desigantion</small>
+                        <div class="d-flex justify-content-center mt-3"data-aos="fade-top" data-aos-duration="1500" >
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-facebook"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden m-4">
+                            <img class="img-fluid" src="https://planb-app.com/img/team-1.jpg"alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Desigantion</small>
+                        <div class="d-flex justify-content-center mt-3" data-aos="fade-top" data-aos-duration="1500">
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-facebook"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-warning mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>                                    
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeInUP" >
+            <div class="container ">
+                <div class="row mb-5" g-5 data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Company</h4>
+                        <a href="" class="btn btn-link text-warning" style="text-decoration: none;">About Us</a>
+                        <a href="" class="btn btn-link text-warning" style="text-decoration: none;">Contact Us</a>
+                        <a href="" class="btn btn-link text-warning" style="text-decoration: none;">Reservation</a>
+                        <a href="" class="btn btn-link text-warning" style="text-decoration: none;">Privacy Policy</a>
+                        <a href="" class="btn btn-link text-warning" style="text-decoration: none;">Teams & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Content</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Start, NewYork, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone me-3"></i>+12 345 654410</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>Info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-twitter"></i></a>
+                            <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-youtube"></i></a>
+                            <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal"> Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">NewsLetter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quae.</p>
+                        <div class="position-relative mx-auto">
+                            <input class="for-control border-primary w-100 py-3 ps-4 pe-5" type="text">
+                                <button class="btn btn-warning py-2 position-absolute top-0 end-0 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center mb-4   col-lg-12">
+                                &copy; <a class="border-bottom  text-warning" style="text-decoration: none;" href="">Your Site Name, All right Reserved</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<!-- booystrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>    
+
+</html>
